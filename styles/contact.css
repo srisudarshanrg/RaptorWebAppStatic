@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    background-color: rgb(44, 44, 44);
+}
+
+nav {
+    font-family: "Ubuntu", sans-serif;
+}
+
+nav .nav-link:hover {
+    background-color: rgb(2, 158, 2);
+    border-radius: 5px;
+    color: #fff;
+}
+
+/*  */
+.contact {
+    margin-top: 3%;
+    color: #fff;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.contact a {
+    padding: 0.8% 2%;
+    border-radius: 5px;
+    background-color: rgb(0, 142, 0);
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    background-color: green;
+}
+
+/*  */
+.footer {
+    background-color: rgb(28, 28, 28);
+    color: lightgrey;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.footer a, .footer p {
+    font-size: 1.3rem;
+}
